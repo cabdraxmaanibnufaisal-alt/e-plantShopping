@@ -34,7 +34,9 @@ const CartItem = ({ onContinueShopping }) => {
     return (price * item.quantity).toFixed(2);
   };
   const handleCheckoutShopping = () =>
-    alert("Functionality to be added for future reference");
+    alert("Functionality to be added for future reference")
+
+    
 
   return (
     <div className="cart-container">
